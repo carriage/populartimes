@@ -1,0 +1,7 @@
+psql \
+   -f staionbusydump.sql \
+   --host chargingbusydb.cvfctobydzsd.us-east-1.rds.amazonaws.com \
+   --port 5432 \
+   --username AdamBehrens \
+   --password ENTER_YOUR_PW \
+   --dbname stationbusydb

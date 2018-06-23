@@ -1,3 +1,9 @@
+create files from csv:
+
+
+load tables into postgres db: 
+psql stationbusydb < monday.sql
+
 psql \
    -f staionbusydump.sql \
    --host chargingbusydb.cvfctobydzsd.us-east-1.rds.amazonaws.com \
